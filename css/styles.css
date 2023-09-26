@@ -99,10 +99,6 @@ img {
     -o-border-radius: 1rem;
 }
 
-.tres-columnas {
-    
-}
-
 /* Header */
 .header {
     margin-bottom: 4rem;
@@ -119,6 +115,21 @@ img {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+}
+
+.titulo-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px){
+    .titulo-img {
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
     }
 }
 
