@@ -99,6 +99,10 @@ img {
     -o-border-radius: 1rem;
 }
 
+.no-margin {
+    margin: 0;
+}
+
 /* Header */
 .header {
     margin-bottom: 4rem;
@@ -127,8 +131,7 @@ img {
 
 @media (min-width: 768px){
     .titulo-img {
-        justify-content: center;
-        align-items: center;
+        flex-direction: row;
         gap: 1rem;
     }
 }
