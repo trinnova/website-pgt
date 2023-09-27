@@ -279,6 +279,10 @@ img {
     cursor: pointer;
 }
 
+.black {
+    color: var(--negro);
+}
+
 @media (min-width: 768px){
     .contenedor-biñetas {
         display: flex;
