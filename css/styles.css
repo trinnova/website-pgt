@@ -309,7 +309,7 @@ img {
     text-transform: uppercase;
     font-weight: bold;
     margin: 0 auto 2rem;
-    color: var(--textoEnlace);
+    color: var(--textoTitulo);
 }
 
 .contenedor-campos {
