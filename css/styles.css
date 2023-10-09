@@ -124,6 +124,9 @@ img {
     }
     
 }
+.texto-centrado {
+    text-align: center;
+}
 
 /* Header */
 .header {
@@ -281,6 +284,10 @@ img {
 
 .black {
     color: var(--negro);
+}
+
+.black:hover {
+    color: var(--textoEnlace);
 }
 
 @media (min-width: 768px){
